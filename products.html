@@ -1,0 +1,13 @@
+<div class="container">
+  <aside class="filters">
+    <h4>Sport</h4>
+    <label><input type="checkbox" onclick="filterSport('Cricket')"> Cricket</label><br>
+    <label><input type="checkbox" onclick="filterSport('Football')"> Football</label>
+
+    <h4>Price</h4>
+    <label><input type="radio" name="p" onclick="filterPrice(1000)"> Under ₹1000</label><br>
+    <label><input type="radio" name="p" onclick="filterPrice(3000)"> Under ₹3000</label>
+  </aside>
+
+  <main class="product-grid" id="products"></main>
+</div>
